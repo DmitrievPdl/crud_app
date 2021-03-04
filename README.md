@@ -7,7 +7,7 @@ First of all, you need to create an empty database where all our models will be 
 CREATE DATABASE cruddb;
 ```
 
-Then change ./instance/config. Insert the <user_name> and <password> of the user who has access rights to database cruddb.
+Then change ./instance/config. Insert the user_name and password of the user who has access rights to database cruddb.
 ```python
 # ./instance/config
 SQLALCHEMY_DATABASE_URI = 'postgres://<user_name>:<password>@localhost:5432/cruddb'
